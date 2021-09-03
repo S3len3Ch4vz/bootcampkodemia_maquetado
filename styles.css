@@ -1,0 +1,55 @@
+/* Este es mi archivo de estilos */
+
+h1 {
+    color:red;
+}
+h2 {
+    color: green;
+}
+p {
+    color: green;
+    font-size: 80%;
+}
+
+body{
+   /* background: con propiedades */
+   /* background:#00000;* color negro en hexadecimal*/
+    background-color: rgb(162, 17, 17); 
+    /*color rojo en RBG */
+    background-color: rgba(162, 17, 17, 0.5);
+    
+}
+p{
+    color: white;
+}
+
+/* Usar selector de ID */ 
+/* Prioridad */
+/* 
+1-Estilos inline
+2-Estilos con selector ID
+3-Estilos con selector clase 
+4-Estilos con selector etiqueta
+*/ 
+#parrafo1 {
+    color:yellow;
+}
+#parrafo2 {
+    color:red;
+}
+
+p{
+    color: white;
+}
+
+/* Definir estilos de la clase caja*/ 
+.caja {
+    border: 1px solid #fff;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+} 
+.caja#cajaroja {
+    border: 1px solid red;
+}
