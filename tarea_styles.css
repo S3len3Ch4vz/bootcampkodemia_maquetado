@@ -1,0 +1,79 @@
+body {
+    background-color: #e6e6e6;
+    font-family: 'Prompt', sans-serif;
+}
+
+header nav {
+    background: yellow;
+    margin:auto;
+    
+}
+header nav a img {
+    width: 20%;
+}
+
+.card-body {
+    background-color: white;
+    margin: 35px auto 0;
+    max-width: 424px;
+    min-height: 409px;
+    padding: 32px 64px;
+}
+
+
+
+input {
+    border-color: transparent;
+    outline: none;
+    box-shadow: 0 0 0 0.125em #3483fa;
+    min-height: 48px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+button {
+    border-color: transparent;
+    background-color: #3483fa;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0 24px;
+    height: 48px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.button {
+    border-color: transparent;
+    background-color: transparent;
+    color: #3483fa;
+}
+
+.card-footer{
+    border-top: 1px solid rgba(0,0,0,.07);
+    background-color: white;
+    text-align: center;
+    padding: 32px 64px;
+    text-align: center;
+    width: 424px;
+    margin: 35px auto;
+    margin-top: 0px;
+
+}
+
+div ul {
+    list-style: none;
+    margin: 24px 0 88px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+footer .footer-class{
+
+    border-top: 1px solid rgba(0,0,0,.1); 
+    background: #fff;
+    text-align: center;
+
+}
