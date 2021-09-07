@@ -190,7 +190,7 @@
     align-items: center;
 }
 
-.enlaces-container a {
+.enlaces-container select,a {
     background-color: #e50914;
     line-height: normal;
     padding: 7px 17px;
